@@ -6,10 +6,10 @@ require.config({
     baseUrl: "./",
     //dojo and dijit are AMD module, so you can easy to use require to load them
     paths: {
-        'dojo': 'dojo',
-        'dijit': 'dijit',
-        'angular': 'angular/angular',
-        'domReady': 'requirejs/domReady'
+        'dojo': 'bower_components/dojo',
+        'dijit': 'bower_components/dijit',
+        'angular': 'bower_components/angular/angular',
+        'domReady': 'bower_components/domReady/domReady'
     },
 
     //angular does not support AMD out of the box, put it in a shim
