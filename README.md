@@ -3,6 +3,13 @@ RequireJS-Dojo-AngularJS
 
 Just use requireJS to load dojo and angularjs example
 
+#### 目的
+
+主要是想实践一下，如何通过requireJS管理angularjs和其他库，一个项目如果以
+angularjs为主框架，angularjs本身的UI控件相对较弱，引入强大的dojo，然后将
+dojo中的UI控件封装成angularjs指令。
+
+
 #### 目录结构
 ```shell
 ├── bower_components
@@ -30,3 +37,8 @@ Just use requireJS to load dojo and angularjs example
 
 - git clone https://github.com/hjzheng/RequireJS-Dojo-AngularJS 
 - npm start
+
+#### 参考资料
+
+- http://jsfiddle.net/sfoster/ztfdZ/
+- http://www.startersquad.com/blog/angularjs-requirejs/

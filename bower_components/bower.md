@@ -1,3 +1,5 @@
+#### just for record dependencies
+```shell
 "dependencies": {
     "angular": "1.3.x",
     "dojo": "1.10.x",
@@ -5,3 +7,4 @@
     "requirejs": "2.1.x",
     "domReady": "x"
 }
+```
