@@ -38,6 +38,10 @@ Just use requireJS to load dojo and angularjs example
 │   └── partial2.html
 └── README.md
 ```
+#### 使用前提
+
+- 需要Nodejs
+
 #### 如何使用
 
 - git clone https://github.com/hjzheng/RequireJS-Dojo-AngularJS 
