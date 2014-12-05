@@ -9,6 +9,7 @@ require.config({
         'dojo': 'bower_components/dojo',
         'dijit': 'bower_components/dijit',
         'angular': 'bower_components/angular/angular',
+        'angular-route': 'bower_components/angular-route/angular-route',
         'domReady': 'bower_components/domReady/domReady'
     },
 
@@ -16,6 +17,9 @@ require.config({
     shim: {
         'angular': {
             exports: 'angular'
+        },
+        'angular-route': {
+            exports: 'angular-route'
         }
     },
 
