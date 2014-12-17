@@ -22,4 +22,17 @@ define(['./module', 'dijit/form/Button'], function (directives, Button) {
             }
         };
     });
+    directives.directive('myComplicatedButton', function () {
+        return {
+            restrict: 'EA',
+            template: '<div></div>',
+            replace: true,
+            scope: {
+                config: "="
+            },
+            link: function ($scope, iElm, iAttrs, controller) {
+                new Button($scope.config, iElm[0]).startup();
+            }
+        };
+    });
 });
