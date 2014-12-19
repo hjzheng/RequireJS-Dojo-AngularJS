@@ -52,7 +52,8 @@ directives.directive('myComplicatedButton', function () {
 directives.directive('myParsedButton', function () {
     return {
         restrict: 'EA',
-        template: '<div><button data-dojo-type="dijit/form/Button" type="button"></button></div>',
+        template: '<div><button data-dojo-type="dijit/form/Button"' +
+                        'type="button"></button></div>',
         replace: true,
         scope: {
             label: "@",
