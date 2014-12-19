@@ -10,6 +10,11 @@ define(['./module'], function (controllers) {
             onClick: function () {
                 console.log("click complicated button");
             }
-        }
+        };
+
+        $scope.label = "parsed button";
+        $scope.click = function(){
+            console.log("click my parsed button");
+        };
     }]);
 });

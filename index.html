@@ -20,15 +20,27 @@
     <p> ------------------------------------- </p>
 
     <div ng-controller="MyCtrl1">
-        <my-button label={{label}}></my-button>
+        <my-button label="{{label}}"></my-button>
         {{name}}
     </div>
     <div ng-controller="MyCtrl2">
-        <my-button label='MyButton'></my-button>
+        <my-button label="MyButton"></my-button>
         {{name}}
     </div>
     <div ng-controller="MyCtrl2">
-        <my-complicated-button config=buttonConfig></my-complicated-button>
+        <my-complicated-button config="buttonConfig"></my-complicated-button>
+        {{name}}
+    </div>
+    <div ng-controller="MyCtrl2">
+        <my-parsed-button label="{{label}}" click="click"></my-parsed-button>
+        {{name}}
+    </div>
+    <div ng-controller="MyCtrl2">
+        <my-dojo-parse>
+            <button data-dojo-type="dijit/form/Button"  data-dojo-props="iconClass:'dijitEditorIcon dijitEditorIconCut'"  type="button">
+                Click me!
+            </button>
+        </my-dojo-parse>
         {{name}}
     </div>
 </body>
