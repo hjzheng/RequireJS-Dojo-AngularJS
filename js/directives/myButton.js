@@ -3,7 +3,7 @@
  * This file define directive my-button
  * use dijit/form/Button
  */
-define(['./module', 'dijit/form/Button'], function (directives, Button) {
+define(['./module', 'dijit/form/Button', 'dojo/parser'], function (directives, Button, parser) {
 
     directives.directive('myButton', function () {
         return {
