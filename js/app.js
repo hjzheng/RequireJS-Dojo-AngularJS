@@ -6,11 +6,13 @@ define([
     'angular',
     'angular-route',
     './controllers/index',
-    './directives/index'
+    './directives/index',
+    './services/index'
 ], function (ng) {
     return ng.module('app', [
         'ngRoute',
         'app.controllers',
-        'app.directives'
+        'app.directives',
+        'app.services'
     ]);
 });

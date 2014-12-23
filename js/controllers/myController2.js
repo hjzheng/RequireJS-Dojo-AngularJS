@@ -12,9 +12,18 @@ define(['./module'], function (controllers) {
             }
         };
 
+        $scope.dialogConfig = {
+            title: "My Dialog",
+            content: "Test content.",
+            style: "width: 300px"
+        };
+
+        var dialog = dojoDialog.create($scope.dialogConfig);
+
         $scope.label = "parsed button";
         $scope.click = function(){
             console.log("click my parsed button");
+            dialog.show();
         };
     }]);
 });
