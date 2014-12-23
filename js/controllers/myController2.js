@@ -3,7 +3,7 @@
  * The file define myController2
  */
 define(['./module'], function (controllers) {
-    controllers.controller('MyCtrl2', ['$scope', function ($scope) {
+    controllers.controller('MyCtrl2', ['$scope', 'dojoDialog', function ($scope, dojoDialog) {
         $scope.name = "This is myController 2";
         $scope.buttonConfig = {
             label: "complicated button",
