@@ -90,6 +90,9 @@ directives.directive('myDojoParse', function () {
         }
     };
 });
+//5.终极方案
+将所有的widget封装为一个指令
+参见 https://github.com/hjzheng/angular-dojo项目中的dojoWidget指令
 ```
 
 
