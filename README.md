@@ -18,7 +18,7 @@ Just use requireJS to load dojo and angularjs example
 
 更好的方式:
 
-参见 https://github.com/hjzheng/angular-dojo 项目中的 dojoWidget 指令
+参见 https://github.com/hjzheng/angular-dojo 项目中的 [dojoWidget][0] 指令
 
 #### 目录结构
 ```shell
@@ -61,3 +61,5 @@ Just use requireJS to load dojo and angularjs example
 
 - http://jsfiddle.net/sfoster/ztfdZ/
 - http://www.startersquad.com/blog/angularjs-requirejs/
+
+[0]:https://github.com/hjzheng/angular-dojo/blob/master/js/directives/angularDojoDirective.js
